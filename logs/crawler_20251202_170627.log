@@ -1,0 +1,55 @@
+2025-12-02 17:06:27 - pixiv_crawler - INFO - Fetching monthly ranking with date 20251128...
+2025-12-02 17:06:27 - pixiv_crawler - INFO - Fetching ranking page - mode: monthly, date: 20251128
+2025-12-02 17:06:29 - pixiv_crawler - INFO - Found 50 contents in ranking JSON data
+2025-12-02 17:06:29 - pixiv_crawler - INFO - Extracted 50 unique image URLs from ranking page
+2025-12-02 17:06:29 - pixiv_crawler - INFO - Found 50 illustration URLs in ranking
+2025-12-02 17:06:29 - pixiv_crawler - INFO - Found 50 illustrations in ranking
+2025-12-02 17:06:29 - pixiv_crawler - INFO - Starting download...
+2025-12-02 17:06:34 - pixiv_crawler - INFO - Successfully downloaded illustration 136937610: ranking_image_136937610
+2025-12-02 17:06:37 - pixiv_crawler - INFO - Successfully downloaded illustration 136971676: ranking_image_136971676
+2025-12-02 17:06:40 - pixiv_crawler - INFO - Successfully downloaded illustration 136937604: ranking_image_136937604
+2025-12-02 17:06:43 - pixiv_crawler - INFO - Successfully downloaded illustration 136967150: ranking_image_136967150
+2025-12-02 17:06:47 - pixiv_crawler - INFO - Successfully downloaded illustration 136937551: ranking_image_136937551
+2025-12-02 17:06:49 - pixiv_crawler - INFO - Successfully downloaded illustration 136958758: ranking_image_136958758
+2025-12-02 17:06:52 - pixiv_crawler - INFO - Successfully downloaded illustration 136937664: ranking_image_136937664
+2025-12-02 17:06:56 - pixiv_crawler - INFO - Successfully downloaded illustration 136937699: ranking_image_136937699
+2025-12-02 17:06:59 - pixiv_crawler - INFO - Successfully downloaded illustration 136926539: ranking_image_136926539
+2025-12-02 17:07:02 - pixiv_crawler - INFO - Successfully downloaded illustration 136931717: ranking_image_136931717
+2025-12-02 17:07:04 - pixiv_crawler - INFO - Successfully downloaded illustration 136937645: ranking_image_136937645
+2025-12-02 17:07:07 - pixiv_crawler - INFO - Successfully downloaded illustration 136976509: ranking_image_136976509
+2025-12-02 17:07:10 - pixiv_crawler - INFO - Successfully downloaded illustration 136937800: ranking_image_136937800
+2025-12-02 17:07:13 - pixiv_crawler - INFO - Successfully downloaded illustration 136938559: ranking_image_136938559
+2025-12-02 17:07:15 - pixiv_crawler - INFO - Successfully downloaded illustration 136900559: ranking_image_136900559
+2025-12-02 17:07:18 - pixiv_crawler - INFO - Successfully downloaded illustration 136957993: ranking_image_136957993
+2025-12-02 17:07:20 - pixiv_crawler - INFO - Successfully downloaded illustration 136982943: ranking_image_136982943
+2025-12-02 17:07:23 - pixiv_crawler - INFO - Successfully downloaded illustration 136892611: ranking_image_136892611
+2025-12-02 17:07:26 - pixiv_crawler - INFO - Successfully downloaded illustration 136956581: ranking_image_136956581
+2025-12-02 17:07:28 - pixiv_crawler - INFO - Successfully downloaded illustration 137000080: ranking_image_137000080
+2025-12-02 17:07:30 - pixiv_crawler - INFO - Successfully downloaded illustration 136939575: ranking_image_136939575
+2025-12-02 17:07:33 - pixiv_crawler - INFO - Successfully downloaded illustration 136901065: ranking_image_136901065
+2025-12-02 17:07:36 - pixiv_crawler - INFO - Successfully downloaded illustration 136902807: ranking_image_136902807
+2025-12-02 17:07:39 - pixiv_crawler - INFO - Successfully downloaded illustration 136923693: ranking_image_136923693
+2025-12-02 17:07:42 - pixiv_crawler - INFO - Successfully downloaded illustration 136924873: ranking_image_136924873
+2025-12-02 17:07:45 - pixiv_crawler - INFO - Successfully downloaded illustration 136965925: ranking_image_136965925
+2025-12-02 17:07:48 - pixiv_crawler - INFO - Successfully downloaded illustration 136937607: ranking_image_136937607
+2025-12-02 17:07:52 - pixiv_crawler - INFO - Successfully downloaded illustration 136969922: ranking_image_136969922
+2025-12-02 17:07:53 - pixiv_crawler - INFO - Successfully downloaded illustration 136849830: ranking_image_136849830
+2025-12-02 17:07:56 - pixiv_crawler - INFO - Successfully downloaded illustration 136962534: ranking_image_136962534
+2025-12-02 17:07:59 - pixiv_crawler - INFO - Successfully downloaded illustration 136937681: ranking_image_136937681
+2025-12-02 17:08:01 - pixiv_crawler - INFO - Successfully downloaded illustration 136937459: ranking_image_136937459
+2025-12-02 17:08:03 - pixiv_crawler - INFO - Successfully downloaded illustration 136887231: ranking_image_136887231
+2025-12-02 17:08:05 - pixiv_crawler - INFO - Successfully downloaded illustration 33: ranking_image_33
+2025-12-02 17:08:08 - pixiv_crawler - INFO - Successfully downloaded illustration 136920013: ranking_image_136920013
+2025-12-02 17:08:10 - pixiv_crawler - INFO - Successfully downloaded illustration 136869846: ranking_image_136869846
+2025-12-02 17:08:12 - pixiv_crawler - INFO - Successfully downloaded illustration 136849796: ranking_image_136849796
+2025-12-02 17:08:15 - pixiv_crawler - INFO - Successfully downloaded illustration 136938978: ranking_image_136938978
+2025-12-02 17:08:17 - pixiv_crawler - INFO - Successfully downloaded illustration 136909283: ranking_image_136909283
+2025-12-02 17:08:19 - pixiv_crawler - INFO - Successfully downloaded illustration 136922323: ranking_image_136922323
+2025-12-02 17:08:22 - pixiv_crawler - INFO - Successfully downloaded illustration 136985986: ranking_image_136985986
+2025-12-02 17:08:24 - pixiv_crawler - INFO - Successfully downloaded illustration 136950981: ranking_image_136950981
+2025-12-02 17:08:26 - pixiv_crawler - INFO - Successfully downloaded illustration 137042535: ranking_image_137042535
+2025-12-02 17:08:29 - pixiv_crawler - INFO - Successfully downloaded illustration 136984646: ranking_image_136984646
+2025-12-02 17:08:31 - pixiv_crawler - INFO - Successfully downloaded illustration 136956627: ranking_image_136956627
+2025-12-02 17:08:33 - pixiv_crawler - INFO - Successfully downloaded illustration 136972944: ranking_image_136972944
+2025-12-02 17:08:36 - pixiv_crawler - INFO - Successfully downloaded illustration 136892568: ranking_image_136892568
+2025-12-02 17:08:38 - pixiv_crawler - INFO - Successfully downloaded illustration 136925756: ranking_image_136925756

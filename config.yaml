@@ -1,0 +1,34 @@
+# Pixiv Crawler Configuration File
+
+# Download settings
+download:
+  # Output directory for downloaded illustrations
+  output_dir: ./downloads
+
+  # Maximum number of pages to search
+  max_pages: 10
+
+  # Request timeout in seconds
+  timeout: 30
+
+  # Number of retries for failed requests
+  retry_times: 3
+
+  # Delay between requests in seconds (respect Pixiv's rate limits)
+  delay: 1.0
+
+# Proxy settings (optional)
+proxy:
+  # Enable proxy
+  enabled: false
+
+  # HTTP proxy URL
+  http: null
+
+  # HTTPS proxy URL
+  https: null
+
+# HTTP headers
+headers:
+  # User agent for requests
+  user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'

@@ -1,0 +1,7 @@
+2025-12-02 17:05:46 - pixiv_crawler - INFO - Fetching ranking page - mode: monthly, date: 20251128
+2025-12-02 17:05:48 - pixiv_crawler - INFO - Found 50 contents in ranking JSON data
+2025-12-02 17:05:48 - pixiv_crawler - INFO - Extracted 50 unique image URLs from ranking page
+2025-12-02 17:05:48 - pixiv_crawler - INFO - Found 50 illustration URLs in ranking
+2025-12-02 17:05:55 - pixiv_crawler - INFO - Successfully downloaded illustration 136937610: ranking_image_136937610
+2025-12-02 17:06:01 - pixiv_crawler - INFO - Successfully downloaded illustration 136971676: ranking_image_136971676
+2025-12-02 17:06:04 - pixiv_crawler - INFO - Successfully downloaded illustration 136937604: ranking_image_136937604

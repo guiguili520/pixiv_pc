@@ -1,0 +1,10 @@
+2025-12-02 16:09:21 - pixiv_crawler - INFO - Fetching monthly ranking with date 20251128...
+2025-12-02 16:09:21 - pixiv_crawler - INFO - Fetching ranking - mode: monthly, date: 20251128
+2025-12-02 16:09:22 - pixiv_crawler - INFO - Found 6 illustrations in ranking
+2025-12-02 16:09:23 - pixiv_crawler - ERROR - Failed to fetch details for illust_id 136937604: 404 Client Error: Not Found for url: https://www.pixiv.net/ajax/illusts/136937604
+2025-12-02 16:09:23 - pixiv_crawler - ERROR - Failed to fetch details for illust_id 136958758: 404 Client Error: Not Found for url: https://www.pixiv.net/ajax/illusts/136958758
+2025-12-02 16:09:24 - pixiv_crawler - ERROR - Failed to fetch details for illust_id 136937610: 404 Client Error: Not Found for url: https://www.pixiv.net/ajax/illusts/136937610
+2025-12-02 16:09:24 - pixiv_crawler - ERROR - Failed to fetch details for illust_id 136967150: 404 Client Error: Not Found for url: https://www.pixiv.net/ajax/illusts/136967150
+2025-12-02 16:09:24 - pixiv_crawler - ERROR - Failed to fetch details for illust_id 136937551: 404 Client Error: Not Found for url: https://www.pixiv.net/ajax/illusts/136937551
+2025-12-02 16:09:25 - pixiv_crawler - ERROR - Failed to fetch details for illust_id 136971676: 404 Client Error: Not Found for url: https://www.pixiv.net/ajax/illusts/136971676
+2025-12-02 16:09:25 - pixiv_crawler - WARNING - No illustrations found in ranking
