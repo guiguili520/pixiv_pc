@@ -1,8 +1,0 @@
-2025-12-02 17:32:12 - pixiv_crawler - INFO - Fetching monthly ranking with date 20251128...
-2025-12-02 17:32:12 - pixiv_crawler - INFO - Fetching ranking page - mode: monthly, date: 20251128
-2025-12-02 17:33:48 - pixiv_crawler - INFO - Found 50 contents in ranking JSON data
-2025-12-02 17:33:48 - pixiv_crawler - INFO - Extracted 50 unique image URLs from ranking page
-2025-12-02 17:36:07 - pixiv_crawler - INFO - Found 50 contents in ranking JSON data
-2025-12-02 17:36:07 - pixiv_crawler - INFO - Extracted 50 unique image URLs from ranking page
-2025-12-02 17:37:52 - pixiv_crawler - INFO - Found 50 illustration URLs in ranking
-2025-12-02 17:40:10 - pixiv_crawler - WARNING - Download interrupted by user

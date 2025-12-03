@@ -1,7 +1,0 @@
-2025-12-02 17:48:04 - pixiv_crawler - INFO - Fetching ranking page - mode: monthly, date: 20251128
-2025-12-02 17:48:05 - pixiv_crawler - INFO - Found 50 illustrations in ranking JSON data
-2025-12-02 17:48:05 - pixiv_crawler - INFO - Extracted 50 illustrations from ranking page
-2025-12-02 17:48:05 - pixiv_crawler - INFO - Found 50 illustrations in ranking
-2025-12-02 17:48:05 - pixiv_crawler - ERROR - Error downloading illustration 136937610: slice indices must be integers or None or have an __index__ method
-2025-12-02 17:48:05 - pixiv_crawler - ERROR - Error downloading illustration 136971676: slice indices must be integers or None or have an __index__ method
-2025-12-02 17:48:05 - pixiv_crawler - ERROR - Error downloading illustration 136937604: slice indices must be integers or None or have an __index__ method
