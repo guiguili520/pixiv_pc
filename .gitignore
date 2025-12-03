@@ -2,4 +2,5 @@
 .claude
 .idea
 .venv
+logs/
 downloads/
