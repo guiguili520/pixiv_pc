@@ -15,7 +15,7 @@ download:
   retry_times: 3
 
   # Delay between requests in seconds (respect Pixiv's rate limits)
-  delay: 1.0
+  delay: .gitignore.0
 
 # Proxy settings (optional)
 proxy:

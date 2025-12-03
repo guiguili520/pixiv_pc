@@ -142,7 +142,7 @@ download:
   max_pages: 10                # 默认搜索页数
   timeout: 30                  # 请求超时时间（秒）
   retry_times: 3               # 失败重试次数
-  delay: 1.0                   # 请求之间的延迟（秒）
+  delay: .gitignore.0                   # 请求之间的延迟（秒）
 
 proxy:
   enabled: false               # 是否启用代理
