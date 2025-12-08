@@ -40,20 +40,26 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-### 3. 安装依赖
+### 3. 安装项目
 
 ```bash
-pip install -r requirements.txt
+# 从项目根目录安装项目及其依赖
+pip install .
+
+# 或者，如果你计划修改代码，建议使用“可编辑模式”安装：
+pip install -e .
 ```
 
 ## 使用方法
+
+安装完成后，你可以直接使用 `pixiv-crawler` 命令。
 
 ### 基本用法
 
 #### 搜索并下载插画
 
 ```bash
-python main.py search "anime girl"
+pixiv-crawler search "anime girl"
 ```
 
 这将搜索关键词"anime girl"并下载前10页的结果。
@@ -61,19 +67,19 @@ python main.py search "anime girl"
 #### 自定义搜索页数
 
 ```bash
-python main.py search "landscape" --max-pages 20
+pixiv-crawler search "landscape" --max-pages 20
 ```
 
 #### 自定义输出目录
 
 ```bash
-python main.py search "architecture" --output ./my_downloads
+pixiv-crawler search "architecture" --output ./my_downloads
 ```
 
 #### 指定排序方式
 
 ```bash
-python main.py search "anime" --order popular_d
+pixiv-crawler search "anime" --order popular_d
 ```
 
 排序选项：
@@ -85,7 +91,7 @@ python main.py search "anime" --order popular_d
 #### 获取月度排行榜
 
 ```bash
-python main.py ranking --mode monthly --date 20251128
+pixiv-crawler ranking --mode monthly --date 20251128
 ```
 
 这将获取2025年11月28日的月度排行榜（查询10月30日-11月28日的内容）。
@@ -93,7 +99,7 @@ python main.py ranking --mode monthly --date 20251128
 #### 获取日度排行榜
 
 ```bash
-python main.py ranking --mode daily
+pixiv-crawler ranking --mode daily
 ```
 
 这将获取当前日期的日度排行榜。
@@ -101,13 +107,13 @@ python main.py ranking --mode daily
 #### 获取周度排行榜
 
 ```bash
-python main.py ranking --mode weekly
+pixiv-crawler ranking --mode weekly
 ```
 
 #### 自定义输出目录
 
 ```bash
-python main.py ranking --mode monthly --date 20251128 --output ./my_downloads
+pixiv-crawler ranking --mode monthly --date 20251128 --output ./my_downloads
 ```
 
 排行榜模式说明：
@@ -121,7 +127,7 @@ python main.py ranking --mode monthly --date 20251128 --output ./my_downloads
 #### 生成默认配置文件
 
 ```bash
-python main.py config --generate
+pixiv-crawler config --generate
 ```
 
 这将生成 `config.yaml` 文件，您可以根据需要编辑它。
@@ -129,7 +135,7 @@ python main.py config --generate
 #### 显示当前配置
 
 ```bash
-python main.py config --show
+pixiv-crawler config --show
 ```
 
 ## 配置文件说明
@@ -157,9 +163,9 @@ headers:
 
 ```
 pixiv_pc/
+├── pyproject.toml             # 项目配置文件 (依赖、元数据等)
 ├── main.py                    # 主程序入口
 ├── config.yaml                # 配置文件
-├── requirements.txt           # 依赖列表
 ├── README.md                  # 项目说明
 ├── logs/                      # 日志目录
 ├── downloads/                 # 默认下载目录
@@ -229,9 +235,11 @@ proxy:
   https: https://proxy.example.com:8080
 ```
 
-### 4. "No module named 'src'" 错误
+### 4. "command not found: pixiv-crawler" 错误
 
-确保您在项目根目录（包含 `main.py` 的目录）运行脚本。
+这个错误意味着 `pixiv-crawler` 命令没有被正确安装到你当前环境的路径中。请确保：
+- 你已经成功执行了 `pip install .` 或 `pip install -e .`。
+- 如果你使用了虚拟环境（如 `.venv`），请确保它已被激活 (`source .venv/bin/activate`)。只有在激活的环境中，命令才可用。
 
 ## 性能建议
 

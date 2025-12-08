@@ -4,3 +4,4 @@
 .venv
 logs/
 downloads/
+pixiv_crawler.egg-info/

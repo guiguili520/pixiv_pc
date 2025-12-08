@@ -9,12 +9,9 @@ import sys
 import os
 from pathlib import Path
 
-# Add src directory to path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from src.config import Config
-from src.crawler import PixivAPI, PixivDownloader
-from src.utils import Logger
+from config import Config
+from crawler import PixivAPI, PixivDownloader
+from utils import Logger
 
 
 def setup_argparse() -> argparse.ArgumentParser:

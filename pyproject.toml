@@ -1,0 +1,56 @@
+# pyproject.toml
+
+[build-system]
+# 指定项目使用 setuptools 作为构建工具
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixiv-crawler"
+version = "1.2.0"
+description = "一个用于从 Pixiv 搜索和下载插画作品的 Python 爬虫脚本。"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+  # 在这里可以填入你的名字和邮箱
+  { name = "Your Name", email = "your@email.com" },
+]
+# 项目的核心依赖，内容来自 requirements.txt
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "python-dotenv",
+    "pyyaml",
+    "pillow",
+    "tqdm",
+    "urllib3",
+]
+
+[project.urls]
+# "Homepage" = "https://github.com/your-username/pixiv_pc" # 可选：你的项目仓库地址
+
+# 定义命令行入口点
+# 安装后，你就可以在终端中直接运行 `pixiv-crawler` 命令
+[project.scripts]
+pixiv-crawler = "main:main"
+
+[tool.setuptools]
+# 告诉 setuptools 我们的包代码在 `src` 目录下
+package-dir = {"" = "src"}
+
+# --- 可选的开发工具配置 ---
+
+[project.optional-dependencies]
+# 开发环境依赖（用于测试、格式化代码等）
+# 使用 `pip install .[dev]` 来安装
+dev = [
+    "pytest",
+    "ruff",
+    "black",
+]
+
+[tool.ruff]
+# 代码检查工具 Ruff 的配置
+select = ["E", "F", "W", "I"] # E/F/W是标准检查, I用于 import 排序
+ignore = ["E501"]             # 忽略 "代码行过长" 的错误
