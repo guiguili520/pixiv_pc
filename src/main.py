@@ -9,9 +9,9 @@ import sys
 import os
 from pathlib import Path
 
-from config import Config
-from crawler import PixivAPI, PixivDownloader
-from utils import Logger
+from .config import Config
+from .crawler import PixivAPI, PixivDownloader
+from .utils import Logger
 
 
 def setup_argparse() -> argparse.ArgumentParser:
